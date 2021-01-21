@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Written by <a href="https://hyperion-world.com/en/p2621744-hp-g570-2600s3-13994">Masato Kubotera</a>
+  Written by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a>
   <br>
   Last updated : <strong>January 21, 2021</strong>
   <br>
@@ -34,7 +34,7 @@
 ---
 <h2>危険性</h2>
 
-- 取り扱いを間違えると<strong>発火・爆発</strong>
+- 取り扱いを間違えると<strong><span style="color:red;">発火・爆発</span></strong>
   - 不適切な充電方法
   - 過放電
   - 過充電
@@ -72,11 +72,28 @@
 - <strong>バランスコネクター</strong> : JST-XH
 
 ---
+<h2>電圧 V・セル S・容量 mAh</h2>
+
+- <strong>公称電圧</strong>
+  端子間の電圧の目安であり，LIPOバッテリーは3.7V/S
+  - 最大電圧 : 4.2V/S
+
+- <strong>セル・端子間電圧</strong>
+  バッテリーの最小単位であるセルを<u>直列接続</u>することで端子間電圧を上げることができる．
+  - 公称電圧 : 3.7V/S × 3S = 11.4V
+  - 最大電圧 : 4.2V/S × 3S = 12.6V
+
+- <strong>容量</strong>
+  - バッテリーが保持できる電気量
+    - 大きいほどより長い時間動作できる．
+  - 1時間に流せる電流
+
+---
 <h2>Cレート</h2>
 
   １Cとはバッテリーの容量を1時間で<strong>充放電できる電流値</strong>
   
-  (例：容量 1000mAhの場合の1Cは，1C×1000mA=1000mA=1.0A)
+  (例 : 容量 1000mAhの場合の1Cは，1C×1000mA=1000mA=1.0A)
 
   - 放電レート 最大70Cとは...
 
