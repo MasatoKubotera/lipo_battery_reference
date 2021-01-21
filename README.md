@@ -89,6 +89,9 @@
   - 1時間に流せる電流
 
 ---
+<h2>バランスコネクタ(バランス端子)</h2>
+
+---
 <h2>Cレート</h2>
 
   １Cとはバッテリーの容量を1時間で<strong>充放電できる電流値</strong>
@@ -104,9 +107,53 @@
     - 容量 2600mAh × 5C = 13,000mA = 13A
 
 ---
+<h2>充電レート・電圧</h2>
+
+- レート
+  <strong><span style="color:red;">必ず推奨充電レートの<u>5C</u>以下</span></strong>で充電を行う．
+
+  (容量 2600mAh × 5C = 13,000mA → 13A以下で充電を行う)
+
+  Brainsで使用している[HiTEC multi charger X4 AC plus](https://hyperion-world.com/en/p2621744-hp-g570-2600s3-13994)の<u>最大充電電流は  6.0A </u>．
+
+  最も安全な充電レートは <strong>1C</strong> である．
+
+- 電圧
+  適切なバッテリーの電圧で充電を行う．充電電圧を間違えると，<strong><span style="color:red;">発火・爆発</span></strong>する．
+
+  - [【江南市消防本部】リポバッテリー過充電状態により出火！啓発動画](https://youtu.be/IaSGUz0wVsY)
+
+---
+<h2>充放電 モード</h2>
+
+[HiTEC multi charger X4 AC plus](https://hyperion-world.com/en/p2621744-hp-g570-2600s3-13994)には，4種類の充放電モードがある．
+
+- <strong>バランス充電</strong>
+  セル間での電圧差が出ないように調整して充電を行う
+
+  充電する場合は<strong><span style="color:red;">必ずバランス充電モードで充電</span></strong>を行う． 
+
+- <strong>ファスト充電(急速充電)</strong>
+  セル間の電圧差を調節せずに，実用可能な容量・電圧まで充電したところで終了させる．
+
+  バッテリーを痛めることはないが，<u>完全な満充電にすることができない</u>．
+
+- <strong>ストレージ充電</strong>
+  保管に適切な容量まで充電を行う．
+  
+- <strong>ディスチャージ(放電)</strong>
+  リチウム系バッテリはメモリー効果が無く，放電管理を特に必要としないため使用しない．
+
+---
+<h2>過充電・過放電・ストレージ</h2>
+
+---
+<h2>寿命・使用中止</h2>
+
+---
 <h2>バッテリー 参考資料</h2>
 
-  - [G5 70Cmax 3S 2600mAh 4.2V-Max LiPo(英語)](https://hyperion-world.com/en/p2621744-hp-g570-2600s3-13994)
+  - [HYPERION G5 70Cmax 3S 2600mAh 4.2V-Max LiPo(英語)](https://hyperion-world.com/en/p2621744-hp-g570-2600s3-13994)
 
     - [仕様書(英語)](https://hyperion-world.com/media/attachment/file/HP-G5SpecSheet.pdf)
 
@@ -117,6 +164,6 @@
 ---
 <h2>充電器 参考資料</h2>
 
-  - [multi charger X4 AC plus(日本語)](https://hitecrcd.co.jp/products/x4ac/)
+  - [HiTEC multi charger X4 AC plus(日本語)](https://hitecrcd.co.jp/products/x4ac/)
 
     - [取扱説明書(日本語)](https://hitecrcd.co.jp/material/manual/hitec/HiTEC_X4-ACPLUS_JP_120717.pdf)
