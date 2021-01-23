@@ -5,7 +5,7 @@
 <p align="center">
   Written by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a>
   <br>
-  Last updated : <strong>January 22, 2021</strong>
+  Last updated : <strong>January 23, 2021</strong>
   <br>
   <img src="https://user-images.githubusercontent.com/53966390/105360175-aa01c280-5c3b-11eb-9ef9-04641c5d2daf.jpg" width="480">
 </p>
@@ -156,19 +156,24 @@
 
   - <strong><span style="color:red;">1セルあたり4.2V以上に充電すると危険</span></strong>．
 
+    - 3セルでは，12.6V以上に充電すると危険．
+
   - 適切な充電電圧で充電を行うことが大切．
 
 - <h4>過放電</h4>
 
   - 不適切な電圧で長期間放置・限界を超えて放電(使用)を続けた場合になる．
   - <strong><span style="color:red;">1セルあたり3.5V未満に放電すると危険</span></strong>．
+
+    - 3セルでは，10.5V未満に放電すると危険．
+
   - バッテリーパックが膨らむことがある．
-  - 過放電を防ぐために電圧を監視する保護回路が必要．
+  - 過放電を防ぐために電圧を監視する<u>保護回路</u>が必要．
 
 ---
 <h3>容量と電圧の関係</h3>
 
-|容量 %|セル電圧 V/S|端子間電圧 V/3S|状態|
+| 容量 % | セル電圧 V/S | 電圧 V/3S | 状態 |
 |:---:|:---:|:---:|:---:|
 |<span style="color:green;">100</span>|<span style="color:green;">4.20</span>|<span style="color:green;">12.60</span>|<span style="color:green;">満充電</span>|
 |<span style="color:orange;">90</span>|<span style="color:orange;">4.11</span>|<span style="color:orange;">12.33</span>|<span style="color:orange;">通常動作範囲</span>|
@@ -182,11 +187,19 @@
 
 ※上記は典型的なもので，使用状態・年数により異なる場合がある．
 
+参考 : [A Guide to Lithium Polymer Batteries](https://hyperion-world.com/en/blog/view/post/a-guide-to-lithium-polymer-batteries)
+
 ---
 <h3>保管</h3>
 
 ---
-<h3>寿命・使用中止</h3>
+<h3>コンディション</h3>
+
+---
+<h3>処理</h3>
+
+---
+<h3>慣らし</h3>
 
 ---
 <h3>バッテリー 参考資料</h3>
