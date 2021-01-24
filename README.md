@@ -110,13 +110,11 @@
     - 容量 2600mAh × 5C = 13,000mA = 13A
 
 ---
-<h3>充電レート・電圧</h3>
+<h3>充電レート・電圧・温度</h3>
 
 - <h4>レート</h4>
 
   - <strong><span style="color:red;">必ず推奨充電レートの<u>5C</u>以下</span></strong>で充電を行う．
-
-    (容量 2600mAh × 5C = 13,000mA → 13A以下で充電を行う)
 
   - Brainsで使用している充電器 : [HiTEC multi charger X4 AC plus](https://hyperion-world.com/en/p2621744-hp-g570-2600s3-13994)の<u>最大充電電流は  6.0A </u>．
 
@@ -124,7 +122,7 @@
 
 - <h4>電圧</h4>
 
-  適切なバッテリーの電圧で充電を行う．充電電圧を間違えると，<strong><span style="color:red;">発火・爆発</span></strong>する．
+  適切な電圧で充電を行う．充電電圧を間違えると，<strong><span style="color:red;">発火・爆発</span></strong>する．
 
   - [【江南市消防本部】リポバッテリー過充電状態により出火！啓発動画](https://youtu.be/IaSGUz0wVsY)
 
@@ -185,6 +183,8 @@
 |<span style="color:red;">20</span>|<span style="color:red;">3.6</span>|<span style="color:red;">10.8</span>|<span style="color:red;">低い電圧</span>|
 |<span style="color:red;">10</span>|<span style="color:red;">3.5</span>|<span style="color:red;">10.5</span>|<span style="color:red;">危険</span>|
 
+<strong>60~100%(3S : 11.61~12.60V)の間で使用</strong>．
+
 ※上記は典型的なもので，使用状態・年数により異なる場合がある．
 
 参考 : [A Guide to Lithium Polymer Batteries](https://hyperion-world.com/en/blog/view/post/a-guide-to-lithium-polymer-batteries)
@@ -202,17 +202,30 @@
 
 - <h4>場所・環境</h4>
 
-  - 常に耐火性の<strong>セーフティーバッグに入れ，燃えにくい場所で保管</strong>．
+  - 常に耐火性の<strong>[セーフティーバッグ](https://hyperion-world.com/en/p1769733-hp-lipo-bag-s)に入れ，燃えにくい場所で保管</strong>．
 
-  - 常温(2~20℃)で保管する．冷蔵庫などで保管すると，電池内部に結露が発生し危険．
+  - 常温(2~20℃)で保管．冷蔵庫などで保管すると，電池内部に結露が発生し危険．
 
-  <img src="https://hyperion-world.com/media/wysiwyg/lipo_bag_large.jpg" width ="320px">
-  <img src="https://images-na.ssl-images-amazon.com/images/I/415UU0IDhiL._AC_.jpg" width ="320px">
+  - 熱はバッテリーの大敵．熱くなるほどバッテリーの寿命は低下する．
+
 ---
 <h3>コンディション</h3>
 
+- 
+
 ---
 <h3>処理・破棄</h3>
+
+1.  バッテリーをできる限り放電させる．
+2.  バッテリーからコネクタ部分などを切断し，被膜を剥き放電しやすくする．
+    (切断する際にショートしないように細心の注意を払う.)
+3.  約5%濃度の食塩水にバッテリーを完全に沈める．
+4.  1週間程度，通気性の良い場所に放置し完全に放電させる．
+5.  自治体の指示に従い処分する．
+    (習志野市では，燃えないゴミとして処分できる．)
+<img alt="過放電により膨張したバッテリー" src="https://user-images.githubusercontent.com/53966390/105626642-326aa800-5e74-11eb-8cb3-2a6c1ba66e76.jpg" width="160px">
+<img alt="塩水につけた直後" src="https://user-images.githubusercontent.com/53966390/105626584-d6a01f00-5e73-11eb-8a94-ba94482dc4d8.jpg" width="160px">
+<img alt="一週間放置後" src="https://user-images.githubusercontent.com/53966390/105626491-4c57bb00-5e73-11eb-86d1-1c25abdabf42.jpg" width="160px">
 
 ---
 <h3>慣らし</h3>
