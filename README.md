@@ -5,7 +5,7 @@
 <p align="center">
   Written by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a>
   <br>
-  Last updated : <strong>January 23, 2021</strong>
+  Last updated : <strong>January 24, 2021</strong>
   <br>
   <img src="https://user-images.githubusercontent.com/53966390/105360175-aa01c280-5c3b-11eb-9ef9-04641c5d2daf.jpg" width="480">
 </p>
@@ -114,13 +114,13 @@
 
 - <h4>レート</h4>
 
-  <strong><span style="color:red;">必ず推奨充電レートの<u>5C</u>以下</span></strong>で充電を行う．
+  - <strong><span style="color:red;">必ず推奨充電レートの<u>5C</u>以下</span></strong>で充電を行う．
 
-  (容量 2600mAh × 5C = 13,000mA → 13A以下で充電を行う)
+    (容量 2600mAh × 5C = 13,000mA → 13A以下で充電を行う)
 
-  Brainsで使用している[HiTEC multi charger X4 AC plus](https://hyperion-world.com/en/p2621744-hp-g570-2600s3-13994)の<u>最大充電電流は  6.0A </u>．
+  - Brainsで使用している充電器 : [HiTEC multi charger X4 AC plus](https://hyperion-world.com/en/p2621744-hp-g570-2600s3-13994)の<u>最大充電電流は  6.0A </u>．
 
-  最も安全な充電レートは <strong>1C</strong> である．
+  - 最も安全な充電レートは <strong>1C</strong> である．
 
 - <h4>電圧</h4>
 
@@ -143,7 +143,7 @@
 
 - <h4>ストレージ充電</h4>
 
-  保管に適切な容量まで充電を行う．
+  保管に適切な電圧・容量まで<u>充放電</u>を行う．
   
 - <h4>ディスチャージ(放電)</h4>
 
@@ -192,11 +192,27 @@
 ---
 <h3>保管</h3>
 
+- <h4>電圧</h4>
+
+  - <strong>セル電圧 3.8V/S，端子間電圧11.4V</strong>程度に充放電を行うことで安全に保管できる．
+    - 数か月以上の保管 : セル電圧 3.7V/S，端子間電圧11.1V程度にする．
+
+  - <strong><span style="color:red;">満充電したバッテリーを放置することは危険</span></strong>．
+    - 24時間以内に使用しない場合はストレージ充電を行う．
+
+- <h4>場所・環境</h4>
+
+  - 常に耐火性の<strong>セーフティーバッグに入れ，燃えにくい場所で保管</strong>．
+
+  - 常温(2~20℃)で保管する．冷蔵庫などで保管すると，電池内部に結露が発生し危険．
+
+  <img src="https://hyperion-world.com/media/wysiwyg/lipo_bag_large.jpg" width ="320px">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/415UU0IDhiL._AC_.jpg" width ="320px">
 ---
 <h3>コンディション</h3>
 
 ---
-<h3>処理</h3>
+<h3>処理・破棄</h3>
 
 ---
 <h3>慣らし</h3>
